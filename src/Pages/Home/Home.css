@@ -1,0 +1,11 @@
+
+
+.bg-img{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.803),rgba(1, 1, 9, 0.803)),url(../../Images/headerBG.jpg);
+     background-size: cover;
+
+}
+.card:hover{
+    background-color: aqua;
+}
