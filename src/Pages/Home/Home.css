@@ -6,6 +6,36 @@
      background-size: cover;
 
 }
-.card:hover{
-    background-color: aqua;
+.Skill-bg{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.803),rgba(1, 1, 9, 0.803)),url(../../Images/projectBG.jpg);
+     background-size: cover;
+
+}
+.hole-content{
+    position: relative;
+    
+}
+.effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+}
+.hole-content:hover .effect{
+    opacity: 0.8;
 }
