@@ -7,7 +7,7 @@ function App() {
   return (
     <div >
       <div className='max-w- mx-auto'>
-        {/* add */}
+        
         <RouterProvider router={router}></RouterProvider>
       </div>
       
