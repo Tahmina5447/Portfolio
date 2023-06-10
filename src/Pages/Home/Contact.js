@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <div className='bg-img ' id='contact'>
             <div className='py-12'>
-                <h1 className='text-white text-bold text-center text-3xl'>Contact me</h1>
+                <h1 className='text-white font-bold text-center text-4xl'>Contact me</h1>
                 <form onSubmit={sendMail}>
                     <div className='w-2/5 mx-auto m-4'>
 
@@ -29,7 +29,7 @@ const Contact = () => {
 
                     </div>
                     <div className='text-center'>
-                        <button type='submit' className=' border border-white text-white py-2 px-3'>Send</button>
+                        <button type='submit' className=' border border-white text-white py-2 px-8'>Send</button>
                     </div>
                 </form>
             </div>

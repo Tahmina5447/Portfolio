@@ -11,7 +11,7 @@ import node from '../../Images/skils/node.png'
 
 const Skills = () => {
     return (
-        <div className=' my-20'>
+        <div className=' my-32'>
             <div className=' w-4/5 mx-auto my-20'>
                 <h1 className='text-blue-700 font-bold text-3xl mb-12 text-center'>My Skills</h1>
                 <div className='grid lg:grid-cols-7 gap-y-6 gap-x-4 '>

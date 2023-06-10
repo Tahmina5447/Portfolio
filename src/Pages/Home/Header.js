@@ -21,7 +21,7 @@ const Header = () => {
                             <h1 className='text-5xl font-bold mb-4 text-blue-700'>
                                 <span>I'am Tahmina</span>
                             </h1>
-                            <span className=' text-red-700 text-4xl font-bold' >
+                            <span className=' text-white text-4xl font-bold' >
 
                                 <Typewriter
                                     words={['Full Stack Web Developer']}

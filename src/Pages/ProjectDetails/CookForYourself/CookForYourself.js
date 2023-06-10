@@ -2,6 +2,16 @@ import React from 'react';
 import cook from '../../../Images/coock.png'
 
 const CookForYourself = () => {
+
+    const projectDetailsData=[
+        {   
+
+        },
+        {
+
+        }
+    ]
+
     return (
         <div className='my-20'>
             <div className=' lg:w-3/5 mx-auto border p-6'>

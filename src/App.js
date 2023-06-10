@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      <div className='max-w- mx-auto'>
+      <div className=''>
         
         <RouterProvider router={router}></RouterProvider>
       </div>

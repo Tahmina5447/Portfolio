@@ -1,14 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
-import AboutMe from "../Pages/AboutMe/AboutMe";
 import Blog from "../Pages/Blog/Blog";
 import ContactMe from "../Pages/ContactMe/ContactMe";
 import Home from "../Pages/Home/Home";
 import ComfortZone from "../Pages/ProjectDetails/ComfortZone";
 import CookForYourself from "../Pages/ProjectDetails/CookForYourself/CookForYourself";
+import Onclub from "../Pages/ProjectDetails/Onclub/Onclub";
 import ProgrammingCourses from "../Pages/ProjectDetails/ProgrammingCourses/ProgrammingCourses";
 import TahminasKitchen from "../Pages/ProjectDetails/TahminasKitchen/TahminasKitchen";
 import TestYourself from "../Pages/ProjectDetails/TestYourself/TestYourself";
+import Fitlessian from "../Pages/ProjectDetails/Fitlessian/Fitlessian";
 
 const router = createBrowserRouter([
     {
@@ -49,8 +50,12 @@ const router = createBrowserRouter([
                 element:<TestYourself></TestYourself>
             },
             {
-                path: '/aboutMe',
-                element: <AboutMe></AboutMe>
+                path:'/onClub',
+                element:<Onclub></Onclub>
+            },
+            {
+                path:'/fitlessian',
+                element:<Fitlessian></Fitlessian>
             }
         ]
     }

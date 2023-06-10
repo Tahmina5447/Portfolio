@@ -9,7 +9,7 @@ const Navbar = () => {
                     <div className='flex'>
                         {/* <img src={logo} alt="" className='w-12 h-12' /> */}
                        
-                        <Link className='text-xl text-blue-700 ml-2  mt-4 font-bold' to='/'>Portfolio</Link>
+                        <Link className='text-xl text-white ml-2  mt-4 font-bold' to='/'>Portfolio</Link>
                     </div>
                 </div>
                 <div className='navbar-end'>
@@ -27,12 +27,12 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0 text-blue-700 ">
+                    <ul className="menu menu-horizontal p-0 text-white ">
                         <li><Link to='/' >Home</Link></li>
                         <li><Link to="/contact">Contact Me</Link></li>
                         <li><Link to='/blog'>Blog</Link></li>
                         
-                        <li><button className='btn-sm border border-white mt-2 '><a target='_blank' href=" https://drive.google.com/file/d/15zzYQVTvk7qIQRaq3u_SqP6U0f9tpvsd/view?usp=share_link">Resume</a></button></li>
+                        <li><button className='btn-sm bg-white rounded-xl font-bold mt-2 text-blue-700 '><a target='_blank' href=" https://drive.google.com/file/d/15zzYQVTvk7qIQRaq3u_SqP6U0f9tpvsd/view?usp=share_link">Resume</a></button></li>
 
 
                     </ul>

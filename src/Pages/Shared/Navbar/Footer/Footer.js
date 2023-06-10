@@ -4,8 +4,8 @@ import { UilLinkedin } from '@iconscout/react-unicons'
 import { UilGithub } from '@iconscout/react-unicons'
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer footer-center p-10  text-base-content rounded">
+        <div >
+            <footer className="footer footer-center p-10   text-base-content rounded">
                 <div>
                     <h1>Tahmina Khatun</h1>
                 </div>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p>Copyright © 2022 - All right reserved Tahmina</p>
+                    <p>Copyright © 2023 - All right reserved Tahmina</p>
                 </div>
             </footer>
         </div>
