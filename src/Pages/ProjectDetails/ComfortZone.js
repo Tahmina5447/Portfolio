@@ -19,9 +19,9 @@ const ComfortZone = () => {
                 <div>
                     <h1 className='text-center text-3xl font-bold text-blue-700 mt-12'>Comfort Zone</h1>
                     <div className='text-blue-700 mb-12 text-center'>
-                        <u className='mr-2 text-sm'><Link target='_blank' to=" https://comfort-zone-2f181.web.app/">Live Link <span className='ml-2'>|</span></Link></u>
-                        <u className='mr-2 text-sm'><Link target='_blank' to="https://github.com/Tahmina5447/Comfort-zone-client"> Client-side Code <span className='ml-2'>|</span></Link></u>
-                        <u className='text-sm'><Link target='_blank' to="https://github.com/Tahmina5447/comfort-zone-server"> Server-side Code</Link></u>
+                        <u className='mr-2 text-sm'><a target='_blank' href=" https://comfort-zone-2f181.web.app/">Live Link <span className='ml-2'>|</span></a></u>
+                        <u className='mr-2 text-sm'><a target='_blank' href="https://github.com/Tahmina5447/Comfort-zone-client"> Client-side Code <span className='ml-2'>|</span></a></u>
+                        <u className='text-sm'><a target='_blank' href="https://github.com/Tahmina5447/comfort-zone-server"> Server-side Code</a></u>
                     </div>
                     <u><p className=' font-bold text-xl'>
                         It's a e-commerce website. Feature of this website:
